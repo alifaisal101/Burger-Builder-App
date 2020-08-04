@@ -1,0 +1,14 @@
+.Msg {
+    text-align: center
+}
+
+
+.HiddenOrderSummery {
+    transform: translateY(-120vh);
+    opacity:0;    
+}
+
+.ShownOrderSummery {
+    transform: translateY(0);
+    opacity:1;
+}

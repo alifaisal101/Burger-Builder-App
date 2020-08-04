@@ -1,0 +1,40 @@
+.Burger {
+    margin:auto;
+    overflow:auto;
+    font-size:1.2rem;
+    font-weight:bold;
+    height:250px;
+    width:30%;
+}
+
+@media (max-width:1050px){
+    .Burger {
+        width:38%
+    }
+}
+
+@media (max-width:750px){
+    .Burger {
+        width:58%
+    }
+}
+
+
+@media (max-width:550px){
+    .Burger {
+        width:88%
+    }
+}
+
+
+@media (min-width:2050px){
+    .Burger {
+        width:19%
+    }
+}
+
+.Price {
+    color:orange;
+    font-weight: 700;
+    text-align: center;
+}
